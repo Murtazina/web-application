@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="322.0">Servlets.MenuServlet</node>
+    <node x="150.0" y="248.0">Servlets.ClientServlet</node>
+    <node x="0.0" y="248.0">Servlets.CoachServlet</node>
+    <node x="506.9716954022989" y="0.0">Entity.Hall</node>
+    <node x="387.7133620689656" y="122.0">DBConnection.MyUtils</node>
+    <node x="334.7550287356322" y="0.0">DBConnection.DBConnection</node>
+    <node x="87.55100574712645" y="0.0">Entity.Coach</node>
+    <node x="543.8635057471265" y="248.0">Servlets.SubscriptionServlet</node>
+    <node x="789.3635057471265" y="0.0">Entity.Accounting</node>
+    <node x="400.8635057471265" y="248.0">Servlets.HallServlet</node>
+    <node x="208.36666666666673" y="0.0">Entity.Client</node>
+    <node x="617.5833333333335" y="0.0">Entity.Subscription</node>
+    <node x="742.8635057471265" y="248.0">Servlets.AccountingServlet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DBConnection.MyUtils" target="Entity.Coach">
+      <point x="-43.541666666666686" y="-14.5" />
+      <point x="392.67169540229884" y="89.0" />
+      <point x="148.30100574712645" y="89.0" />
+      <point x="20.25" y="14.5" />
+    </edge>
+    <edge source="DBConnection.MyUtils" target="Entity.Subscription">
+      <point x="27.708333333333314" y="-14.5" />
+      <point x="463.92169540229884" y="89.0" />
+      <point x="656.5833333333335" y="89.0" />
+      <point x="-26.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.SubscriptionServlet" target="Entity.Subscription">
+      <point x="67.125" y="-14.5" />
+      <point x="700.4885057471265" y="228.0" />
+      <point x="708.5833333333335" y="228.0" />
+      <point x="26.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.ClientServlet" target="Entity.Coach">
+      <point x="-27.400000000000034" y="-14.5" />
+      <point x="191.09999999999997" y="198.0" />
+      <point x="131.05100574712645" y="198.0" />
+      <point x="131.05100574712645" y="109.0" />
+      <point x="134.80100574712645" y="109.0" />
+      <point x="6.75" y="14.5" />
+    </edge>
+    <edge source="Servlets.AccountingServlet" target="Entity.Client">
+      <point x="-68.75" y="-14.5" />
+      <point x="756.6135057471265" y="188.0" />
+      <point x="272.5883620689656" y="188.0" />
+      <point x="272.5883620689656" y="109.0" />
+      <point x="259.70000000000005" y="109.0" />
+      <point x="7.333333333333314" y="14.5" />
+    </edge>
+    <edge source="DBConnection.MyUtils" target="DBConnection.DBConnection">
+      <point x="-11.875" y="-14.5" />
+      <point x="424.3383620689656" y="49.0" />
+      <point x="367.2550287356322" y="49.0" />
+      <point x="-32.5" y="14.5" />
+    </edge>
+    <edge source="Servlets.CoachServlet" target="DBConnection.MyUtils">
+      <point x="43.33333333333334" y="-14.5" />
+      <point x="108.33333333333331" y="218.0" />
+      <point x="398.2133620689656" y="218.0" />
+      <point x="-38.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.SubscriptionServlet" target="Entity.Hall">
+      <point x="-22.375" y="-14.5" />
+      <point x="610.9885057471265" y="228.0" />
+      <point x="644.7385057471265" y="228.0" />
+      <point x="644.7385057471265" y="69.0" />
+      <point x="573.5716954022989" y="69.0" />
+      <point x="29.600000000000023" y="14.5" />
+    </edge>
+    <edge source="Servlets.ClientServlet" target="DBConnection.MyUtils">
+      <point x="54.80000000000001" y="-14.5" />
+      <point x="273.3" y="228.0" />
+      <point x="417.2133620689656" y="228.0" />
+      <point x="-19.0" y="14.5" />
+    </edge>
+    <edge source="DBConnection.MyUtils" target="Entity.Client">
+      <point x="-27.70833333333337" y="-14.5" />
+      <point x="408.5050287356322" y="69.0" />
+      <point x="274.36666666666673" y="69.0" />
+      <point x="22.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.HallServlet" target="DBConnection.MyUtils">
+      <point x="-15.375000000000057" y="-14.5" />
+      <point x="446.9885057471264" y="228.0" />
+      <point x="436.2133620689656" y="228.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.AccountingServlet" target="Entity.Subscription">
+      <point x="-13.75" y="-14.5" />
+      <point x="811.6135057471265" y="218.0" />
+      <point x="834.837356321839" y="218.0" />
+      <point x="834.837356321839" y="89.0" />
+      <point x="734.5833333333335" y="89.0" />
+      <point x="52.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.AccountingServlet" target="DBConnection.MyUtils">
+      <point x="-41.25" y="-14.5" />
+      <point x="784.1135057471265" y="178.0" />
+      <point x="474.2133620689656" y="178.0" />
+      <point x="38.0" y="14.5" />
+    </edge>
+    <edge source="DBConnection.MyUtils" target="Entity.Accounting">
+      <point x="35.625" y="-14.5" />
+      <point x="471.8383620689656" y="99.0" />
+      <point x="800.9635057471264" y="99.0" />
+      <point x="-46.39999999999998" y="14.5" />
+    </edge>
+    <edge source="Servlets.HallServlet" target="Entity.Hall">
+      <point x="46.12499999999994" y="-14.5" />
+      <point x="508.4885057471264" y="228.0" />
+      <point x="558.771695402299" y="228.0" />
+      <point x="14.799999999999955" y="14.5" />
+    </edge>
+    <edge source="Servlets.CoachServlet" target="Entity.Coach">
+      <point x="-43.333333333333314" y="-14.5" />
+      <point x="21.666666666666686" y="228.0" />
+      <point x="54.0" y="228.0" />
+      <point x="54.0" y="99.0" />
+      <point x="94.30100574712645" y="99.0" />
+      <point x="-33.75" y="14.5" />
+    </edge>
+    <edge source="DBConnection.MyUtils" target="Entity.Hall">
+      <point x="3.9583333333333144" y="-14.5" />
+      <point x="440.17169540229884" y="49.0" />
+      <point x="514.3716954022989" y="49.0" />
+      <point x="-29.600000000000023" y="14.5" />
+    </edge>
+    <edge source="Servlets.SubscriptionServlet" target="DBConnection.MyUtils">
+      <point x="-67.125" y="-14.5" />
+      <point x="566.2385057471265" y="208.0" />
+      <point x="455.2133620689656" y="208.0" />
+      <point x="19.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.AccountingServlet" target="Entity.Accounting">
+      <point x="13.75" y="-14.5" />
+      <point x="839.1135057471265" y="228.0" />
+      <point x="857.5958333333334" y="228.0" />
+      <point x="857.5958333333334" y="109.0" />
+      <point x="847.3635057471265" y="109.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.ClientServlet" target="Entity.Client">
+      <point x="27.400000000000006" y="-14.5" />
+      <point x="245.9" y="208.0" />
+      <point x="237.7" y="208.0" />
+      <point x="237.7" y="99.0" />
+      <point x="230.36666666666673" y="99.0" />
+      <point x="-22.0" y="14.5" />
+    </edge>
+    <edge source="Servlets.HallServlet" target="Entity.Client">
+      <point x="-46.12500000000006" y="-14.5" />
+      <point x="416.2385057471264" y="198.0" />
+      <point x="248.7" y="198.0" />
+      <point x="248.7" y="109.0" />
+      <point x="245.0333333333334" y="109.0" />
+      <point x="-7.333333333333343" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="261.0" y="248.0" />
+  <SelectedNodes>
+    <node>DBConnection.MyUtils</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
